@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "description": "High performance laptop",
+    "price": 1200,
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "description": "Latest model smartphone with advanced features",
+    "price": 800,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "description": "Noise cancelling over-ear headphones",
+    "price": 250,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch",
+    "description": "Waterproof smartwatch with heart rate monitor",
+    "price": 180,
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "name": "Camera",
+    "description": "Digital SLR camera with high resolution lens",
+    "price": 950,
+    "image": "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZXJhfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 6,
+    "name": "Tablet",
+    "description": "10-inch tablet perfect for work and play",
+    "price": 400,
+    "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGFibGV0fGVufDB8fDB8fHww"
+  },
+  {
+    "id": 7,
+    "name": "Bluetooth Speaker",
+    "description": "Portable wireless speaker with deep bass",
+    "price": 120,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Qmx1ZXRvb3RoJTIwU3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 8,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console for immersive gaming experience",
+    "price": 500,
+    "image": "https://images.unsplash.com/photo-1604846887565-640d2f52d564?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwY29uc29sZXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 1768667723418,
+    "name": "Telephone",
+    "description": "Very nice phone",
+    "price": "750",
+    "image": "https://images.unsplash.com/photo-1587560699334-bea93391dcef?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 1768668842791,
+    "name": "WebCam",
+    "description": "A nice webcam",
+    "price": "450",
+    "image": "https://images.unsplash.com/photo-1636569826709-8e07f6104992?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2ViY2FtfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 1768669148559,
+    "name": "Mic ",
+    "description": "Best Mic For PC User",
+    "price": "320",
+    "image": "https://images.unsplash.com/photo-1590602846581-7d3eec520d07?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1pY3xlbnwwfHwwfHx8MA%3D%3D"
+  }
+  
+]
