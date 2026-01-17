@@ -1,4 +1,4 @@
-// app/page.tsx
+
 import Link from 'next/link';
 
 export default function HomePage() {
@@ -8,7 +8,7 @@ export default function HomePage() {
 
       <main className="">
 
-        {/* 1. Hero Section */}
+    
         <section className="relative min-h-[85vh] flex items-center bg-gradient-to-br from-indigo-700 via-indigo-600 to-blue-800 text-white overflow-hidden">
           <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_20%_80%,white_0%,transparent_60%)]"></div>
           
@@ -41,7 +41,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 2. Features */}
+   
         <section className="py-24  md:py-32 bg-gray-100">
           <div className="max-w-7xl  mx-auto px-6 lg:px-8">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900">
@@ -75,7 +75,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 3. How It Works */}
+    
         <section className="py-24 bg-blue-100">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900">
@@ -105,7 +105,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 4. Technologies */}
+     
         <section className="py-24 bg-gray-100 ">
           <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-gray-900">
@@ -132,7 +132,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 5. Why Choose NextMart */}
+      
         <section className="py-24 bg-blue-100">
           <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-10 text-gray-900">
@@ -145,7 +145,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 6. Testimonials / Trust (simple version) */}
+      
         <section className="py-24 bg-gray-100">
           <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-16 text-gray-900">
@@ -175,7 +175,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 7. Final Call to Action */}
+        
         <section className="py-32 bg-gradient-to-br from-indigo-500 to-blue-600 text-white relative overflow-hidden">
           <div className="absolute inset-0 opacity-10 bg-[conic-gradient(at_top_right,_white,_transparent)]"></div>
 

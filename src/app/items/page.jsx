@@ -8,11 +8,11 @@ const ItemsPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  // Fetch items from Express API
+ 
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/items"); // Express API
+        const res = await fetch("http://localhost:5000/api/items");
         if (!res.ok) throw new Error("Failed to fetch items");
         const data = await res.json();
         setItems(data);
@@ -43,7 +43,7 @@ const ItemsPage = () => {
     <main className="bg-gray-100 min-h-screen py-16">
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Page Title */}
+       
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-blue-600 mb-2">
             Our Products
@@ -53,21 +53,21 @@ const ItemsPage = () => {
           </p>
         </div>
 
-        {/* Items Grid */}
+      
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {items.map((item) => (
             <div
               key={item.id}
               className="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden"
             >
-              {/* Image */}
+             
               <img
                 src={item.image}
                 alt={item.name}
                 className="w-full h-48 object-cover"
               />
 
-              {/* Content */}
+          
               <div className="p-5">
                 <h2 className="text-xl text-black font-semibold mb-2">{item.name}</h2>
                 <p className="text-gray-600 text-sm mb-3">

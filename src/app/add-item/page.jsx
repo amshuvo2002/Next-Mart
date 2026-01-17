@@ -7,11 +7,11 @@ import Swal from "sweetalert2";
 const AddItemPage = () => {
   const router = useRouter();
 
-  // 🔒 Auth check (localStorage)
+  
   useEffect(() => {
     const isLoggedIn = localStorage.getItem("auth");
     if (!isLoggedIn) {
-      router.push("/login"); // Not logged in → redirect
+      router.push("/login"); 
     }
   }, [router]);
 
@@ -45,14 +45,14 @@ const AddItemPage = () => {
       });
 
       if (!res.ok) throw new Error("Failed to add item");
- // ✅ SweetAlert success
+
       await Swal.fire({
         icon: "success",
         title: "Product Added!",
         text: `${formData.name} has been added successfully`,
         confirmButtonColor: "#3085d6",
       });
-      router.push("/items"); // redirect to Items List page
+      router.push("/items"); 
     } catch (err) {
       setError(err.message);
     } finally {
@@ -64,7 +64,7 @@ const AddItemPage = () => {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
       <div className="w-full max-w-2xl bg-white rounded-xl shadow-lg p-8">
 
-        {/* Header */}
+       
         <div className="mb-6 text-center">
           <h1 className="text-3xl font-bold text-gray-800">
             Add New Product
@@ -74,17 +74,17 @@ const AddItemPage = () => {
           </p>
         </div>
 
-        {/* Error */}
+       
         {error && (
           <div className="mb-4 rounded bg-red-100 text-red-600 px-4 py-2 text-sm">
             {error}
           </div>
         )}
 
-        {/* Form */}
+       
         <form onSubmit={handleSubmit} className="space-y-5">
 
-          {/* Item Name */}
+       
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Item Name
@@ -99,7 +99,7 @@ const AddItemPage = () => {
             />
           </div>
 
-          {/* Description */}
+        
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Description
@@ -114,7 +114,7 @@ const AddItemPage = () => {
             />
           </div>
 
-          {/* Price & Image */}
+         
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -144,7 +144,7 @@ const AddItemPage = () => {
             </div>
           </div>
 
-          {/* Submit */}
+        
           <button
             type="submit"
             disabled={loading}

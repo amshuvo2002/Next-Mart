@@ -9,7 +9,7 @@ app.use(express.json());
 
 const itemsPath = path.join(__dirname, "items.json");
 
-// Helper: read items
+
 const readItems = () => {
   try {
     const data = fs.readFileSync(itemsPath, "utf-8");
@@ -19,18 +19,18 @@ const readItems = () => {
   }
 };
 
-// Helper: write items
+
 const writeItems = (items) => {
   fs.writeFileSync(itemsPath, JSON.stringify(items, null, 2));
 };
 
-// GET all items
+
 app.get("/api/items", (req, res) => {
   const items = readItems();
   res.json(items);
 });
 
-// GET single item by id
+
 app.get("/api/items/:id", (req, res) => {
   const items = readItems();
   const item = items.find((i) => i.id === parseInt(req.params.id));
@@ -38,11 +38,11 @@ app.get("/api/items/:id", (req, res) => {
   else res.status(404).json({ error: "Item not found" });
 });
 
-// ✅ POST new item
+
 app.post("/api/items", (req, res) => {
   const items = readItems();
   const newItem = {
-    id: Date.now(), // unique id
+    id: Date.now(), 
     ...req.body,
   };
   items.push(newItem);
@@ -50,7 +50,7 @@ app.post("/api/items", (req, res) => {
   res.status(201).json(newItem);
 });
 
-// DELETE item (optional)
+
 app.delete("/api/items/:id", (req, res) => {
   let items = readItems();
   const id = parseInt(req.params.id);
@@ -62,7 +62,7 @@ app.delete("/api/items/:id", (req, res) => {
   res.json({ message: "Item deleted" });
 });
 
-// UPDATE item (optional)
+
 app.put("/api/items/:id", (req, res) => {
   let items = readItems();
   const id = parseInt(req.params.id);

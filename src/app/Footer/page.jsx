@@ -1,4 +1,4 @@
-// components/Footer.tsx
+
 import Link from 'next/link';
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="bg-gray-800 text-gray-300">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-16 pb-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-8">
-          {/* Left - Brand & Description */}
+       
           <div className="md:col-span-5">
             <h3 className="text-3xl font-bold text-white mb-4">NextMart</h3>
             <p className="text-gray-400 mb-6 max-w-md text-base leading-relaxed">
@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Middle - Quick Navigation */}
+        
           <div className="md:col-span-3">
             <h4 className="text-lg font-semibold text-white mb-6 uppercase tracking-wider">
               Navigation
@@ -54,7 +54,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Right - Tech Stack + Social/Links */}
+        
           <div className="md:col-span-4">
             <h4 className="text-lg font-semibold text-white mb-6 uppercase tracking-wider">
               Built With
@@ -102,7 +102,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
+    
       <div className="border-t border-gray-800 bg-black/40">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 text-center text-sm text-gray-500">
           <p>

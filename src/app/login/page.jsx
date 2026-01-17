@@ -6,12 +6,12 @@ import { useRouter } from "next/navigation";
 const LoginPage = () => {
   const router = useRouter();
 
-  // form state
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  // hardcoded credentials (as required)
+ 
   const ADMIN_EMAIL = "admin@example.com";
   const ADMIN_PASSWORD = "Asd123";
 
@@ -20,10 +20,10 @@ const LoginPage = () => {
     setError("");
 
     if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
-      // set cookie
+    
       document.cookie = "isLoggedIn=true; path=/";
 
-      // redirect after successful login
+    
       router.push("/items");
     } else {
       setError("Invalid email or password");
@@ -34,12 +34,12 @@ const LoginPage = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-gray-100 p-8 border-1 border-gray-300 rounded-lg shadow-md w-full max-w-md">
         
-        {/* Title */}
+   
         <h1 className="text-2xl font-bold text-center mb-6 text-blue-600">
           Login to NextMart
         </h1>
 
-        {/* Login Form */}
+      
         <form onSubmit={handleSubmit} className="space-y-4">
 
           <div>
@@ -84,7 +84,7 @@ const LoginPage = () => {
           </button>
         </form>
 
-        {/* Hint Section */}
+      
         <div className="mt-6 text-sm text-gray-600 text-center">
           <p>Demo Credentials:</p>
           <p>Email: <span className="font-medium">admin@example.com</span></p>

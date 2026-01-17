@@ -1,9 +1,9 @@
-"use server"; // Server Component হিসেবে declare করা জরুরি
+"use server"; 
 import Image from "next/image";
 
 export default async function Page({ params }) {
-  // params unwrap করা হচ্ছে
-  const { id } = await params; // 👈 এই লাইনটি fixed
+  
+  const { id } = await params; 
 
   const res = await fetch(
     `http://localhost:5000/api/items/${id}`,
