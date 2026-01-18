@@ -9,7 +9,7 @@ Backend Setup:
 Go to backend folder: cd src/Backend
 Install dependencies: npm install express cors
 Start backend server: node server.js
-Runs on: http://localhost:5000
+Runs on: https://next-backend-olive.vercel.app/
 Frontend Setup:
 Go to frontend folder (Next.js project): cd src/FrontendInstall dependencies: npm install
 Start frontend development server: npm run dev
