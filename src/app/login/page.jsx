@@ -20,11 +20,11 @@ const LoginPage = () => {
     setError("");
 
     if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
-    
-      document.cookie = "isLoggedIn=true; path=/";
+    document.cookie =
+  "isLoggedIn=true; path=/; SameSite=Lax";
 
-    
-      router.push("/items");
+router.replace("/items");
+
     } else {
       setError("Invalid email or password");
     }
